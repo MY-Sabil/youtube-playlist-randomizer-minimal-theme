@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*:focus {
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #181818;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #aaaaaa;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #717171;
+}
+
+body{
+    background: #181818;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #ef4444;
+}
+
+h2,h4{
+    color: #fecaca;
+}
+
+#info{
+    max-width: 585px !important;
+    margin-top: 50px;
+    line-height: 20px;
+    letter-spacing: .1px;
+}
+
+a{
+    color: rgb(62, 166, 255);
+    text-decoration: none;
+}
+
+#videoSizeSel{
+    min-width: 100px;
+    margin-left: 20px;
+    padding: 7px 12px;
+    border: none;
+    background: #303030;
+    color: white;
+    cursor: pointer;
+    transition: ease 200ms;
+}
+
+#prev, #next{
+    height: 30px;
+    width: 50px;
+    padding: 7px 12px;
+    border: none;
+    background: #303030;
+    color: white;
+    transition: ease 200ms;
+}
+
+#shuffle, #search{
+    height: 30px;
+    width: 65px;
+    padding: 7px 12px;
+    border: none;
+    background: #303030;
+    color: white;
+    transition: ease 200ms;
+}
+
+#bookmark{
+    height: 30px;
+    width: 85px;
+    padding: 7px 12px;
+    border: none;
+    background: #303030;
+    color: white;
+    transition: ease 200ms;
+}
+
+#rls, #sph{
+    height: 30px;
+    width: 190px;
+    padding: 7px 12px;
+    margin-right: 20px;
+    border: none;
+    background: #303030;
+    color: white;
+    transition: ease 200ms;
+}
+
+#prev:hover, #next:hover, #bookmark:hover, #shuffle:hover, #videoSizeSel:hover, #rls:hover, #sph:hover, #search:hover{
+    background: #272727;
+}
+
+#autostart{
+    margin: 10px
+}
+
+#mlists{
+    margin-bottom: 20px;
+}
+
+#pid{
+    margin-bottom: 10px;
+}
+
+input[type=text], textarea{
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    background: #181818;
+    color: white;
+}
+
+#title{
+    margin-bottom: 10px !important;
+}
+
+#list, #plhis{
+    width: 585px !important;
+    max-width: 585px !important;
+    background-color: #181818 !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    padding: 10px 10px;
+    color: white;
+}
+
+#video-placeholder{
+    margin-right: 50px;
+}
