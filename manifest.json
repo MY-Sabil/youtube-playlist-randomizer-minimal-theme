@@ -11,7 +11,7 @@
     "author": "Muhaiminul Yeamin",
 
     "content_scripts": [{
-        "matches": ["https://youtube-playlist-randomizer.bitbucket.io/*"],
+        "matches": ["https://youtube-playlist-randomizer.bitbucket.io/*", "https://ytplr.bitbucket.io/*"],
         "css": ["main.css"],
         "js": ["main.js"]
     }]
